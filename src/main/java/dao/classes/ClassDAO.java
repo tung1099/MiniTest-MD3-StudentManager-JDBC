@@ -13,7 +13,7 @@ public class ClassDAO implements IClassDAO {
     private String jdbcPassword = "123456";
     private static final String INSERT_CLASS_SQL = "INSERT INTO classes (id,name,description) VALUES (?, ?, ?);";
     private static final String SELECT_CLASS_BY_ID = "select * from classes where id =?";
-    private static final String SELECT_ALL_CLASS = "select * from classes";
+    private static final String SELECT_ALL_CLASS = "select * from classes;";
     private static final String DELETE_CLASS_SQL = "delete from classes where id = ?;";
     private static final String UPDATE_CLASS_SQL = "update classes set name = ?,description= ? where id = ?;";
 

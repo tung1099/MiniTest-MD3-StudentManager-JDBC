@@ -94,6 +94,7 @@ public class StudentDAO implements IStudentDAO {
                 String name = rs.getString("name");
                 String address = rs.getString("address");
                 int class_id = rs.getInt("class_id");
+
                 students.add(new Students(id, name, address, class_id));
             }
         } catch (SQLException e) {

@@ -42,13 +42,6 @@
                 <td>
                     <input type="text" name="class_id" id="class_id" size="15"/>
                 </td>
-<%--                <td>--%>
-<%--                <select name="class_id" id="class_id">--%>
-<%--                    <option value="1">1:JavaScript</option>--%>
-<%--                    <option value="2">2:Java</option>--%>
-<%--                    <option value="3">1:PHP</option>--%>
-<%--                </select>--%>
-<%--                </td>--%>
             </tr>
             <tr>
                 <td colspan="2" align="center">

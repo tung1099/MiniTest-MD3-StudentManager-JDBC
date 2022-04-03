@@ -16,8 +16,12 @@
 <center>
     <h1>Student Management</h1>
     <h2>
-        <a href="/students?action=create">Add New Student</a>
+        <a href="/students?action=createStudent">Add New Student</a>
     </h2>
+    <h2>
+        <a href="/students?action=listClass">Class list</a>
+    </h2>
+
 </center>
 <div align="center">
     <table border="1" cellpadding="5">
@@ -35,8 +39,8 @@
                 <td><c:out value="${student.address}"/></td>
                 <td><c:out value="${student.class_id}"/></td>
                 <td>
-                    <a href="/students?action=edit&id=${student.id}">Edit</a>
-                    <a href="/students?action=delete&id=${student.id}">Delete</a>
+                    <a href="/students?action=editStudent&id=${student.id}">Edit</a>
+                    <a href="/students?action=deleteStudent&id=${student.id}">Delete</a>
                 </td>
             </tr>
         </c:forEach>
